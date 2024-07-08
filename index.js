@@ -32,7 +32,7 @@ const uri =
   async function run() {
     try {
       // Connect the client to the server	(optional starting in v4.7)
-      await client.connect();
+    //   await client.connect();
       const categoryCollection = client.db("PROJECT0").collection("users");
       const districtsCollection = client.db("PROJECT0").collection("cities");
   
